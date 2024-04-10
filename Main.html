@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="author" content="CallmeZero, ZKWolf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Header Style */
+        header {
+            background-color: purple;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo Style */
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-right: auto;
+        }
+
+        /* Navigation Style */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 100px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Banner Style */
+        .banner {
+            background-color: rgba(128, 0, 128, 0.5);
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            margin: 50px 0;
+            transform: translateY(-20px);
+            opacity: 0;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Apply animation to the banner */
+        .banner {
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        /* About Us Section Style */
+        .about-section {
+            display: flex;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 20px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            flex: 1;
+            margin-right: 30px;
+            font-size: 24px;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about-image img {
+          height:170px;
+          width:auto;
+          max-width:500px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="path/to/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h1>Welcome to Project Rebirth</h1>
+    </div>
+
+    <div class="about-section">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are a passionate group of developers and gamers dedicated to reviving treasures of the gaming world, specifically focusing on games that have been abandoned by their developers. Through our API and reverse engineering, we breathe new life into these games, making them accessible once again to players like you.</p>
+            <p>Explore our website to learn more about our current projects. Join our vibrant community on Discord to connect with fellow gamers and stay updated on our latest developments. Dive into the world of Project Rebirth and discover the magic of revived games with us!</p>
+        </div>
+        <div class="about-image">
+            <img src="path/to/image.jpg" alt="Image" class="about-img">
+        </div>
+    </div>
+
+</body>
+</html>
