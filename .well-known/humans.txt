@@ -1,0 +1,23 @@
+/* TEAM */
+Project: Project Rebirth
+Role: Developers
+URL: https://projectrebirth.net
+Location: WorldWide
+
+/* CONTRIBUTORS */
+- Name: ZKWolf
+  Role: Leader/Creator
+  URL: https://zkwolf.com
+
+- Name: CallMeZero
+  Role: Dev
+
+/* THANKS */
+- Name: Lyze
+  Role: Setting up Ticket Bot
+
+
+/* SITE */
+Last-Modified: 15.04.2024 02:50
+Standards: HTML, CSS
+Components: nginx
