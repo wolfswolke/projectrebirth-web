@@ -21,3 +21,7 @@ This is the Website we use on [ProjectRebirth.net](https://projectrebirth.net).
 # How to report a bug
 
 If you find a bug please create a issue on github or report it in the Discord server.
+
+# Credits
+
+Thank you CallMeZero for creating this Website!
