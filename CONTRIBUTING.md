@@ -43,7 +43,3 @@ Please review and adhere to the [code of conduct](CODE_OF_CONDUCT.md) of this pr
 We welcome feedback and suggestions for improving this contribution guide. If you have any ideas on how to make the contribution process smoother or more inclusive, please let us know by opening an issue or reaching out to the project maintainers.
 
 Thank you for contributing to Project Rebirth Website!
-
----
-
-Feel free to customize this template to better suit the specific needs and guidelines of your project!
