@@ -1,7 +1,3 @@
-Absolutely, here's a template for your CONTRIBUTING.md file:
-
----
-
 # Contributing to Project Rebirth Website
 
 Thank you for considering contributing to Project Rebirth Website! We appreciate your interest in reviving games and making them accessible again. By contributing to this project, you're helping to bring new life to beloved games that have been abandoned by their developers.
