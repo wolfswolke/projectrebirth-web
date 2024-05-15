@@ -87,7 +87,7 @@ header {
     margin-top: 20px;
     margin-left: 550px;
     margin-right: 50px;
-    background-color: #706138;
+    background: linear-gradient(to bottom right, #706138, #9c8035);
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -99,7 +99,7 @@ header {
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 550px;
-    background-color: #706138;
+    background: linear-gradient(to bottom right, #706138, #9c8035);
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -116,7 +116,7 @@ header {
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 550px;
-    background-color: #706138;
+    background: linear-gradient(to bottom right, #706138, #9c8035);
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
