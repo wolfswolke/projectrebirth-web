@@ -9,34 +9,39 @@ body {
 header {
     background-color: #212121;
     padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar {
     font-size: 24px;
-    padding-top: 0px
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
 }
 
 .navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .navbar li {
-    float: right;
+    padding: 20px;
 }
-
 
 .navbar a {
     color: #efdfe0;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
-    text-align: center;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a:focus {
     background-color: #9e009e;
 }
 
