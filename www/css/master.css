@@ -42,7 +42,8 @@ header {
 }
 
 .navbar a:hover, .navbar a:focus {
-    background-color: #9e009e;
+    background: linear-gradient(to bottom right, #9e009e, #bd0596);
+    border-radius: 15px;
 }
 
 .banner {
