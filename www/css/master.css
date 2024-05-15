@@ -1,9 +1,9 @@
-body{
-  margin: 0;
-  padding: 0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #212121;
-  color: #efdfe0;
+    color: #efdfe0;
 }
 
 header {
@@ -11,9 +11,9 @@ header {
     padding-bottom: 10px;
 }
 
-.navbar{
-  font-size: 24px;
-  padding-top: 0px
+.navbar {
+    font-size: 24px;
+    padding-top: 0px
 }
 
 .navbar ul {
@@ -24,11 +24,11 @@ header {
 }
 
 .navbar li {
-  float: right;
+    float: right;
 }
 
 
-.navbar a{
+.navbar a {
     color: #efdfe0;
     text-decoration: none;
     padding: 15px 20px;
@@ -36,8 +36,8 @@ header {
     text-align: center;
 }
 
-.navbar a:hover{
-  background-color: #9e009e;
+.navbar a:hover {
+    background-color: #9e009e;
 }
 
 .banner {
@@ -48,14 +48,15 @@ header {
     padding: 20px 0;
 }
 
-.about-section-left{
-  display: flex;
-  padding: 50px;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 550px;
-  background-color: #9e009e;
-  border-radius: 50px;
+.about-section-left {
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 550px;
+    background: linear-gradient(to bottom right, #9e009e, #bd0596);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-text {
@@ -64,29 +65,31 @@ header {
 }
 
 .about-image {
-    height:320px;
-    width:auto;
+    height: 320px;
+    width: auto;
 }
 
-.about-section-right{
-  display: flex;
-  padding: 50px;
-  margin-top: 20px;
-  margin-left: 550px;
-  margin-right: 50px;
-  background-color: #706138;
-  border-radius: 50px;
+.about-section-right {
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-right: 50px;
+    background-color: #706138;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-.contact-section-left{
-  display: flex;
-  padding: 50px;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 550px;
-  background-color: #706138;
-  border-radius: 50px;
+.contact-section-left {
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 550px;
+    background-color: #706138;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-text {
@@ -95,14 +98,15 @@ header {
     line-height: 1.8;
 }
 
-.download-section-left{
-  display: flex;
-  padding: 50px;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 550px;
-  background-color: #706138;
-  border-radius: 50px;
+.download-section-left {
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 550px;
+    background-color: #706138;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .download-text {
